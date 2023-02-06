@@ -10,7 +10,12 @@ const MerchPreview = (props) => {
 
     <Link to={path}>
       <div>
-      <h1>{props.article}</h1>
+        <h1>{props.article}</h1>
+        <h2>{props.price} </h2>
+        <img 
+          src={props.image} 
+          alt={props.article}
+        />
       </div>
 
     </Link>

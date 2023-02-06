@@ -6,7 +6,8 @@ const MerchList = (props) => {
     <div>
       {props.merch.map((merch, i) =>
         
-        <MerchPreview article={merch.article} key={i} image={merch.image}/>
+        <MerchPreview article={merch.article} key={i} image={merch.image}
+        price={merch.price}/>
       
 
       )}
