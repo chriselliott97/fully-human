@@ -1,5 +1,5 @@
-import MerchList from "../components/MerchList/MerchList";
-import { merch } from "../data/merch";
+import MerchList from "../../components/MerchList/MerchList";
+import { merch } from "../../data/merch";
 
 const Merch = () => {
   return ( 
