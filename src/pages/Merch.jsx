@@ -1,3 +1,5 @@
+import { merch } from "../data/merch";
+
 const Merch = () => {
   return ( 
   <>
